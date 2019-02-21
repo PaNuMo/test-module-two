@@ -1,0 +1,4 @@
+Bundle-Name: module-two
+Bundle-SymbolicName: com.catalyst.module.two
+Bundle-Version: 1.0.0
+Export-Package: com.catalyst.module.two.constants
