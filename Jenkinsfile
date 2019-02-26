@@ -17,7 +17,7 @@ pipeline {
 
     parameters {
         string(defaultValue: '/var/lib/jenkins/jenkins-ws', description: '', name: 'workspacePath')
-        booleanParam(defaultValue: false, description: '', name: 'deployToServer')
+        booleanParam(defaultValue: true, description: '', name: 'deployToServer')
     }
 
     stages {
