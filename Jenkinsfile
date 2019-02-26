@@ -42,7 +42,7 @@ pipeline {
             }
         }
         
-        stage('Desploy') {
+        stage('Deploy') {
             when {
                 expression {
                     return params.deployToServer;
