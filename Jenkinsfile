@@ -1,8 +1,3 @@
-properties([
-    pipelineTriggers(
-        [ pollSCM('* * * * *') ]
-    )
-])
 
 pipeline {
     agent any
